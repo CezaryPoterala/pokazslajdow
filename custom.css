@@ -1,0 +1,194 @@
+body {
+  padding-top: 10px;
+  background-color:#dddddd ;
+
+}
+ /* Wyśrodkowanie napisu na slajdach. */
+.center{    
+  margin-top:225px;
+}
+.slide p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+.slide a{
+  color:#090808;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+a:focus{
+  outline: none;
+}
+/* Slajdy */
+.slider {
+  align: center;
+  position: relative;
+  width: 100%;
+  height: 570px;
+border: none;
+  background-color: #ddd;
+}
+
+.slide {
+  background: center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide a{
+  text-align: center;
+}
+
+.active-slide {
+    display: block;
+}
+#slide1{
+  background-image: url('merkury.png');
+   background-repeat: no-repeat;
+}
+#slide2{
+ background-image: url('wenus.png');
+ background-repeat: no-repeat;
+}
+#slide3{
+  background-image: url('ziemia.png');
+  background-repeat: no-repeat;
+}
+#slide4{
+  background-image: url('mars.png');
+   background-repeat: no-repeat;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*strzałki do slajdów*/
+span.glyphicon-chevron-left {
+    font-size: 1.7em;
+	color: #202040;
+	cursor: pointer;
+	margin-right: 10px;
+}
+span.glyphicon-chevron-right {
+    font-size: 1.7em;
+	color:  #202040;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  padding-right:0;
+  margin-bottom: 0;
+  cursor: pointer;
+  margin-top: 2px;
+  
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: inherit;
+}
+.navbar-default {
+  background-color:  inherit;
+  border-color:  inherit;;
+}
+.navbar-default .navbar-brand {
+  color: #525252;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #1e1d1d;
+}
+.navbar-default .navbar-text {
+  color: #525252
+}
+.navbar-default .navbar-nav > li > a {
+  color:#525252;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #525252;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #dddddd;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #525252;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #000000;
+  background-color:inherit;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #dddddd;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color:#000000;
+  background-color:#dddddd;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color:#dddddd ;
+}
+.navbar-default .navbar-toggle {
+  border-color: #1e1d1d;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: :#000000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color:#525252;
+}
+.navbar-default .navbar-link {
+  color: #525252;
+}
+.navbar-default .navbar-link:hover {
+  color: #1e1d1d;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color:#525252;
+	background-color: #dddddd;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+	background-color: #dddddd;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #dddddd;
+  }
+}

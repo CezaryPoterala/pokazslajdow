@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Cezary Poterała" content="">
+    <title>Pokaz slajdów</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="container">
+  <!-- Navbar -->
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Pokaz slajdów</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+		<li class="dropdown">
+          <a style="width:158px;" class="dropdown-toggle" data-toggle="dropdown" href="#">Strona 1</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Strona 1-1</a></li>
+            <li><a href="#">Strona 1-2</a></li>
+            <li><a href="#">Strona 1-3</a></li> 
+          </ul>
+        </li>
+			<li class="dropdown">
+          <a style="width:158px;" class="dropdown-toggle" data-toggle="dropdown" href="#">Strona 2</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Strona 2-1</a></li>
+            <li><a href="#">Strona 2-2</a></li>
+            <li><a href="#">Strona 2-3</a></li> 
+          </ul>
+        </li>
+			<li class="dropdown">
+          <a style="width:158px;"class="dropdown-toggle" data-toggle="dropdown" href="#">Strona 3</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Strona 3-1</a></li>
+            <li><a href="#">Strona 3-2</a></li>
+            <li><a href="#">Strona 3-3</a></li> 
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Zarejestruj się</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Zaloguj się</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+ <!-- Navbar -->
+ <!-- Slajdy -->
+<div class="container">
+    
+	<div class="slider">
+		<div class="slide active-slide" id="slide1">
+			<div class="center  text-center">
+				<p>Merkury<p>
+				<a href="http://pl.wikipedia.org/wiki/Merkury" >Dowiedz się więcej!</a>
+			</div>
+      </div>
+
+		<div class="slide" id="slide2">
+			<div class="center  text-center">
+				<p>Wenus<p>
+				<a href="http://pl.wikipedia.org/wiki/Wenus" >Dowiedz się więcej!</a>
+			</div>
+		</div>
+	
+		<div class="slide"  id="slide3">
+			<div class="center  text-center">
+				<p>Ziemia<p>
+				<a href="http://pl.wikipedia.org/wiki/Ziemia" >Dowiedz się więcej!</a>
+			</div>
+		</div>
+	
+		<div class="slide"  id="slide4">	
+			<div class="center  text-center">
+				<p>Mars<p>
+				<a href="http://pl.wikipedia.org/wiki/Mars" >Dowiedz się więcej!</a>
+			</div>
+		</div>  
+    
+	</div>
+
+	<div  class="slider-nav">
+		<span class="glyphicon glyphicon-chevron-left arrow-prev"></span>
+		<ul class="slider-dots">
+			<li class="dot active-dot" id = "1">&bull;</li>
+			<li class="dot"  id = "2">&bull;</li>
+			<li class="dot" id = "3">&bull;</li>
+			<li class="dot" id = "4">&bull;</li>
+		</ul>
+		<span class="glyphicon glyphicon-chevron-right arrow-next"></span>
+	</div>
+	
+</div>
+	<!-- Slajdy -->
+	<!-- Tabele -->
+
+    <!-- JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="custom.js"></script>
+  </body>
+</html>
